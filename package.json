@@ -1,8 +1,11 @@
 {
   "name": "clean-arquitecture-typescript",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "license": "MIT",
+  "scripts": {
+     "execute" : "tsc && node build/main.js"
+  },
   "devDependencies": {
     "typescript": "^4.5.2"
   }
